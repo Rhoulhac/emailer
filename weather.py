@@ -14,4 +14,3 @@ def get_weather_forecast():
     forecast = "The forcast for today is " + description + " with a high of "
     forecast += str(int(temp_max)) + " and a low of " + str(int(temp_min))
     return forecast
-
