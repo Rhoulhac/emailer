@@ -8,8 +8,8 @@ def send_emails(emails, schedule, forecast):
     server.starttls()
 
     # Login
-    # from_email = input("Enter a gmail account ")
-    from_email = 'grr.programming@gmail.com'
+    from_email = input("Enter your gmail account ")
+    # from_email = 'grr.programming@gmail.com'
     password = input("What is your email password? ")
     server.login(from_email,password)
 
