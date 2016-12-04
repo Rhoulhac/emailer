@@ -9,7 +9,7 @@ def send_emails(emails, schedule, forecast):
 
     # Login
     from_email = input("Enter your gmail account ")
-    # from_email = 'grr.programming@gmail.com'
+    # from_email = '...@gmail.com'
     password = input("What is your email password? ")
     server.login(from_email,password)
 
